@@ -782,53 +782,249 @@ skills:
   forging:
     name: 鍛造
     desc: '&7在鐵砧上合成和使用書籍以\n&7獲得鍛造 {xp_unit}'
-endurance:
-  name: 耐力
-  walk_per_meter: 走路
-  sprint_per_meter: 衝刺
-  swim_per_meter: 游泳
-agility:
-  name: 敏捷
-  jump_per_100: 跳躍
-  fall_damage: 受到摔落傷害
-alchemy:
-  name: 煉藥
-  awkward: Awkward 藥水
-  regular: Regular 藥水
-  extended: Extended Duration 藥水
-  upgraded: Upgraded 藥水
-  splash: Splash 藥水
-  lingering: Lingering 藥水
-enchanting:
-  name: 附魔
-  weapon_per_level: 武器
-  armor_per_level: 盔甲
-  tool_per_level: 工具
-  book_per_level: 書籍
-sorcery:
-  name: 巫術
-  mana_ability_use: 使用法力能力
-  sculk: Sculk
-  sculk_vein: Sculk Vein
-  sculk_sensor: Sculk Sensor
-  sculk_catalyst: Sculk Catalyst
-  sculk_shrieker: Sculk Shrieker
-healing:
-  name: 治療
-  drink_regular: 飲用 Regular 藥水
-  drink_extended: 飲用 Extended Duration 藥水
-  drink_upgraded: 飲用 Upgraded 藥水
-  splash_regular: 潑灑 Regular 藥水
-  splash_extended: 潑灑 Extended Duration 藥水
-  splash_upgraded: 潑灑 Upgraded 藥水
-  lingering_regular: 使用 Regular Lingering 藥水
-  lingering_extended: 使用 Extended Duration Lingering 藥水
-  lingering_upgraded: 使用 Upgraded Lingering 藥水
-  golden_apple: 金蘋果
-  enchanted_golden_apple: 附魔金蘋果
-  forging:
-    name: 鍛造
-    desc: '&7在鐵砧上使用書籍將物品結合來獲得鍛造{xp_unit}'
+sources:
+  farming:
+    wheat: 小麥
+    potato: 馬鈴薯
+    carrot: 胡蘿蔔
+    beetroot: 甜菜根
+    nether_wart: 地獄疙瘩
+    pumpkin: 南瓜
+    melon: 西瓜
+    sugar_cane: 甘蔗
+    bamboo: 竹子
+    cocoa: 可可
+    cactus: 仙人掌
+    brown_mushroom: 棕色蘑菇
+    red_mushroom: 紅色蘑菇
+    kelp: 海帶
+    sea_pickle: 海鞘
+    sweet_berry_bush: 甜莓
+    glow_berries: 螢光莓
+  foraging:
+    oak_log: 橡木原木
+    spruce_log: 杉木原木
+    birch_log: 白樺木原木
+    jungle_log: 叢林木原木
+    acacia_log: 相思木原木
+    dark_oak_log: 黑橡木原木
+    oak_leaves: 橡木樹葉
+    spruce_leaves: 杉木樹葉
+    birch_leaves: 白樺木樹葉
+    jungle_leaves: 叢林木樹葉
+    acacia_leaves: 相思木樹葉
+    dark_oak_leaves: 黑橡木樹葉
+    crimson_stem: 緋紅蕈柄
+    warped_stem: 扭曲蕈柄
+    nether_wart_block: 地獄疙瘩塊
+    warped_wart_block: 扭曲疙瘩塊
+    moss_block: 苔蘚方塊
+    moss_carpet: 覆地苔蘚
+    azalea: 杜鵑叢
+    flowering_azalea: 開花的杜鵑叢
+    azalea_leaves: 杜鵑葉
+    flowering_azalea_leaves: 開花的杜鵑葉
+    mangrove_log: 紅樹林木原木
+    mangrove_leaves: 紅樹林木樹葉
+    mangrove_roots: 紅樹林木根
+  mining:
+    stone: 石頭
+    cobblestone: 鵝卵石
+    andesite: 安山岩
+    diorite: 閃長岩
+    granite: 花崗岩
+    coal_ore: 煤礦
+    nether_quartz_ore: 地獄石英礦
+    iron_ore: 鐵礦
+    lapis_ore: 青金石礦
+    redstone_ore: 紅石礦
+    gold_ore: 黃金礦
+    diamond_ore: 鑽石礦
+    emerald_ore: 綠寶石礦
+    terracotta: 陶土
+    white_terracotta: 白色
+    orange_terracotta: 橘色陶土
+    yellow_terracotta: 黃色陶土
+    light_gray_terracotta: 淺灰色陶土
+    brown_terracotta: 棕色陶土
+    red_terracotta: 紅色陶土
+    netherrack: 地獄石
+    blackstone: 黑石
+    basalt: 玄武岩
+    magma_block: 岩漿塊
+    nether_gold_ore: 地獄金礦
+    ancient_debris: 遠古遺骸
+    end_stone: 終界石
+    obsidian: 黑曜石
+    deepslate: 深板岩
+    copper_ore: 銅礦
+    tuff: 凝灰岩
+    calcite: 方解石
+    smooth_basalt: 平滑玄武岩
+    amethyst_block: 紫水晶方塊
+    amethyst_cluster: 紫水晶晶簇
+    deepslate_coal_ore: 深板岩煤礦
+    deepslate_iron_ore: 深板岩鐵礦
+    deepslate_copper_ore: 深板岩銅礦
+    deepslate_gold_ore: 深板岩金礦
+    deepslate_redstone_ore: 深板岩紅石礦
+    deepslate_lapis_ore: 深板岩青金石礦
+    deepslate_emerald_ore: 深板岩綠寶石礦
+    deepslate_diamond_ore: 深板岩鑽石礦
+    dripstone_block: 鐘乳石岩
+    ice: 冰
+    packed_ice: 冰磚
+    blue_ice: 藍冰
+    reinforced_deepslate: 強化深板岩
+  fishing:
+    cod: Cod
+    salmon: Salmon
+    tropical_fish: Tropical Fish
+    pufferfish: Pufferfish
+    treasure: Treasure Items
+    junk: Junk Items
+    rare: Rare Loot
+    epic: Epic Loot
+  excavation:
+    dirt: Dirt
+    grass_block: Grass Block
+    sand: Sand
+    gravel: Gravel
+    mycelium: Mycelium
+    clay: Clay
+    soul_sand: Soul Sand
+    coarse_dirt: Coarse Dirt
+    podzol: Podzol
+    soul_soil: Soul Soil
+    red_sand: Red Sand
+    rooted_dirt: Rooted Dirt
+    mud: Mud
+    muddy_mangrove_roots: Muddy Mangrove Roots
+  mobs:
+    player: Player
+    bat: Bat
+    cat: Cat
+    chicken: Chicken
+    cod: Cod
+    cow: Cow
+    donkey: Donkey
+    fox: Fox
+    giant: Giant
+    horse: Horse
+    mooshroom: Mooshroom
+    mule: Mule
+    ocelot: Ocelot
+    parrot: Parrot
+    pig: Pig
+    rabbit: Rabbit
+    salmon: Salmon
+    sheep: Sheep
+    skeleton_horse: Skeleton Horse
+    snow_golem: Snow Golem
+    squid: Squid
+    strider: Strider
+    tropical_fish: Tropical Fish
+    turtle: Turtle
+    villager: Villager
+    wandering_trader: Wandering Trader
+    bee: Bee
+    cave_spider: Cave Spider
+    dolphin: Dolphin
+    enderman: Enderman
+    iron_golem: Iron Golem
+    llama: Llama
+    piglin: Piglin
+    panda: Panda
+    polar_bear: Polar Bear
+    pufferfish: Pufferfish
+    spider: Spider
+    wolf: Wolf
+    zombified_piglin: Zombified Piglin
+    blaze: Blaze
+    creeper: Creeper
+    drowned: Drowned
+    elder_guardian: Elder Guardian
+    endermite: Endermite
+    evoker: Evoker
+    ghast: Ghast
+    guardian: Guardian
+    hoglin: Hoglin
+    husk: Husk
+    illusioner: Illusioner
+    magma_cube: Magma Cube
+    phantom: Phantom
+    piglin_brute: Piglin Brute
+    pillager: Pillager
+    ravager: Ravager
+    shulker: Shulker
+    silverfish: Silverfish
+    skeleton: Skeleton
+    slime: Slime
+    stray: Stray
+    vex: Vex
+    vindicator: Vindicator
+    witch: Witch
+    wither_skeleton: Wither Skeleton
+    zoglin: Zoglin
+    zombie: Zombie
+    zombie_villager: Zombie Villager
+    ender_dragon: Ender Dragon
+    wither: Wither
+    axolotl: Axolotl
+    glow_squid: Glow Squid
+    goat: Goat
+    allay: Allay
+    frog: Frog
+    tadpole: Tadpole
+    warden: Warden
+  defense:
+    mob_damage: Damage from Mobs
+    player_damage: Damage from Players
+  endurance:
+    name: 耐力
+    walk_per_meter: 走路
+    sprint_per_meter: 衝刺
+    swim_per_meter: 游泳
+  agility:
+    name: 敏捷
+    jump_per_100: 跳躍
+    fall_damage: 受到摔落傷害
+  alchemy:
+    name: 煉藥
+    awkward: Awkward 藥水
+    regular: Regular 藥水
+    extended: Extended Duration 藥水
+    upgraded: Upgraded 藥水
+    splash: Splash 藥水
+    lingering: Lingering 藥水
+  enchanting:
+    name: 附魔
+    weapon_per_level: 武器
+    armor_per_level: 盔甲
+    tool_per_level: 工具
+    book_per_level: 書籍
+  sorcery:
+    name: 巫術
+    mana_ability_use: 使用法力能力
+    sculk: Sculk
+    sculk_vein: Sculk Vein
+    sculk_sensor: Sculk Sensor
+    sculk_catalyst: Sculk Catalyst
+    sculk_shrieker: Sculk Shrieker
+  healing:
+    name: 治療
+    drink_regular: 飲用 Regular 藥水
+    drink_extended: 飲用 Extended Duration 藥水
+    drink_upgraded: 飲用 Upgraded 藥水
+    splash_regular: 潑灑 Regular 藥水
+    splash_extended: 潑灑 Extended Duration 藥水
+    splash_upgraded: 潑灑 Upgraded 藥水
+    lingering_regular: 使用 Regular Lingering 藥水
+    lingering_extended: 使用 Extended Duration Lingering 藥水
+    lingering_upgraded: 使用 Upgraded Lingering 藥水
+    golden_apple: 金蘋果
+    enchanted_golden_apple: 附魔金蘋果
+
 stats:
   strength:
     name: 強度
