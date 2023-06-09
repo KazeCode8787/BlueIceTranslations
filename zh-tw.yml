@@ -877,120 +877,117 @@ sources:
     blue_ice: 藍冰
     reinforced_deepslate: 強化深板岩
   fishing:
-    cod: Cod
-    salmon: Salmon
-    tropical_fish: Tropical Fish
-    pufferfish: Pufferfish
-    treasure: Treasure Items
-    junk: Junk Items
-    rare: Rare Loot
-    epic: Epic Loot
+    cod: 鱈魚
+    salmon: 鮭魚
+    tropical_fish: 熱帶魚
+    pufferfish: 河豚
+    treasure: 寶藏物品
+    junk: 垃圾物品
+    rare: 稀有寶箱
+    epic: 史詩寶箱
   excavation:
-    dirt: Dirt
-    grass_block: Grass Block
-    sand: Sand
-    gravel: Gravel
-    mycelium: Mycelium
-    clay: Clay
-    soul_sand: Soul Sand
-    coarse_dirt: Coarse Dirt
-    podzol: Podzol
-    soul_soil: Soul Soil
-    red_sand: Red Sand
-    rooted_dirt: Rooted Dirt
-    mud: Mud
-    muddy_mangrove_roots: Muddy Mangrove Roots
+    dirt: 泥土
+    grass_block: 草地方塊
+    sand: 沙子
+    gravel: 礫石
+    mycelium: 菌絲體
+    clay: 黏土
+    soul_sand: 靈魂沙
+    coarse_dirt: 砂土
+    podzol: 灰壤
+    soul_soil: 靈魂土
+    red_sand: 紅沙
+    rooted_dirt: 扎根土
+    mud: 泥巴
+    muddy_mangrove_roots: 淤泥紅樹林木根
   mobs:
-    player: Player
-    bat: Bat
-    cat: Cat
-    chicken: Chicken
-    cod: Cod
-    cow: Cow
-    donkey: Donkey
-    fox: Fox
-    giant: Giant
-    horse: Horse
-    mooshroom: Mooshroom
-    mule: Mule
-    ocelot: Ocelot
-    parrot: Parrot
-    pig: Pig
-    rabbit: Rabbit
-    salmon: Salmon
-    sheep: Sheep
-    skeleton_horse: Skeleton Horse
-    snow_golem: Snow Golem
-    squid: Squid
-    strider: Strider
-    tropical_fish: Tropical Fish
-    turtle: Turtle
-    villager: Villager
-    wandering_trader: Wandering Trader
-    bee: Bee
-    cave_spider: Cave Spider
-    dolphin: Dolphin
-    enderman: Enderman
-    iron_golem: Iron Golem
-    llama: Llama
-    piglin: Piglin
-    panda: Panda
-    polar_bear: Polar Bear
-    pufferfish: Pufferfish
-    spider: Spider
-    wolf: Wolf
-    zombified_piglin: Zombified Piglin
-    blaze: Blaze
-    creeper: Creeper
-    drowned: Drowned
-    elder_guardian: Elder Guardian
-    endermite: Endermite
-    evoker: Evoker
-    ghast: Ghast
-    guardian: Guardian
-    hoglin: Hoglin
-    husk: Husk
-    illusioner: Illusioner
-    magma_cube: Magma Cube
-    phantom: Phantom
-    piglin_brute: Piglin Brute
-    pillager: Pillager
-    ravager: Ravager
-    shulker: Shulker
-    silverfish: Silverfish
-    skeleton: Skeleton
-    slime: Slime
-    stray: Stray
-    vex: Vex
-    vindicator: Vindicator
-    witch: Witch
-    wither_skeleton: Wither Skeleton
-    zoglin: Zoglin
-    zombie: Zombie
-    zombie_villager: Zombie Villager
-    ender_dragon: Ender Dragon
-    wither: Wither
-    axolotl: Axolotl
-    glow_squid: Glow Squid
-    goat: Goat
-    allay: Allay
-    frog: Frog
-    tadpole: Tadpole
-    warden: Warden
+    player: 玩家
+    bat: 蝙蝠
+    cat: 貓
+    chicken: 雞
+    cod: 鱈魚
+    cow: 牛
+    donkey: 驢
+    fox: 狐狸
+    giant: 巨人
+    horse: 馬
+    mooshroom: 哞菇
+    mule: 騾
+    ocelot: 豹貓
+    parrot: 鸚鵡
+    pig: 豬
+    rabbit: 兔子
+    salmon: 鮭魚
+    sheep: 羊
+    skeleton_horse: 骷髏馬
+    snow_golem: 雪人
+    squid: 墨魚
+    strider: 赤足獸
+    tropical_fish: 熱帶魚
+    turtle: 海龜
+    villager: 村民
+    wandering_trader: 流浪商人
+    bee: 蜜蜂
+    cave_spider: 洞穴蜘蛛
+    dolphin: 海豚
+    enderman: 終界使者
+    iron_golem: 鐵巨人
+    llama: 駱馬
+    piglin: 豬布林
+    panda: 貓熊
+    polar_bear: 北極熊
+    pufferfish: 河豚
+    spider: 蜘蛛
+    wolf: 狼
+    zombified_piglin: 殭屍化豬布林
+    blaze: 烈焰使者
+    creeper: 苦力怕
+    drowned: 沉屍
+    elder_guardian: 遠古深海守衛
+    endermite: 終界螨
+    evoker: 喚魔者
+    ghast: 地獄幽靈
+    guardian: 深海守衛
+    hoglin: 豬布獸
+    husk: 屍殼
+    illusioner: 幻術師
+    magma_cube: 岩漿立方怪
+    phantom: 夜寐
+    piglin_brute: 豬布林蠻兵
+    pillager: 掠奪者
+    ravager: 劫掠獸
+    shulker: 界伏蚌
+    silverfish: 蠹魚
+    skeleton: 骷髏弓箭手
+    slime: 史萊姆
+    stray: 流髑
+    vex: 惱鬼
+    vindicator: 衛道士
+    witch: 女巫
+    wither_skeleton: 凋零骷髏
+    zoglin: 殭屍化豬布獸
+    zombie: 殭屍
+    zombie_villager: 殭屍村民
+    ender_dragon: 終界龍
+    wither: 凋零
+    axolotl: 墨西哥蠑螈
+    glow_squid: 螢光魷魚
+    goat: 山羊
+    allay: 悅靈
+    frog: 青蛙
+    tadpole: 蝌蚪
+    warden: 伏守者
   defense:
-    mob_damage: Damage from Mobs
-    player_damage: Damage from Players
+    mob_damage: 怪物造成的傷害
+    player_damage: 玩家造成的傷害
   endurance:
-    name: 耐力
     walk_per_meter: 走路
     sprint_per_meter: 衝刺
     swim_per_meter: 游泳
   agility:
-    name: 敏捷
     jump_per_100: 跳躍
     fall_damage: 受到摔落傷害
   alchemy:
-    name: 煉藥
     awkward: Awkward 藥水
     regular: Regular 藥水
     extended: Extended Duration 藥水
@@ -998,33 +995,43 @@ sources:
     splash: Splash 藥水
     lingering: Lingering 藥水
   enchanting:
-    name: 附魔
     weapon_per_level: 武器
     armor_per_level: 盔甲
     tool_per_level: 工具
     book_per_level: 書籍
   sorcery:
-    name: 巫術
     mana_ability_use: 使用法力能力
-    sculk: Sculk
-    sculk_vein: Sculk Vein
-    sculk_sensor: Sculk Sensor
-    sculk_catalyst: Sculk Catalyst
-    sculk_shrieker: Sculk Shrieker
+    sculk: 茯苓
+    sculk_vein: 茯苓脈絡
+    sculk_sensor: 茯苓感測器
+    sculk_catalyst: 茯苓觸媒
+    sculk_shrieker: 茯苓尖嘯器
   healing:
-    name: 治療
     drink_regular: 飲用 Regular 藥水
     drink_extended: 飲用 Extended Duration 藥水
     drink_upgraded: 飲用 Upgraded 藥水
-    splash_regular: 潑灑 Regular 藥水
-    splash_extended: 潑灑 Extended Duration 藥水
-    splash_upgraded: 潑灑 Upgraded 藥水
+    splash_regular: 噴濺 Regular 藥水
+    splash_extended: 噴濺 Extended Duration 藥水
+    splash_upgraded: 噴濺 Upgraded 藥水
     lingering_regular: 使用 Regular Lingering 藥水
     lingering_extended: 使用 Extended Duration Lingering 藥水
     lingering_upgraded: 使用 Upgraded Lingering 藥水
     golden_apple: 金蘋果
     enchanted_golden_apple: 附魔金蘋果
-
+  forging:
+    combine_books_per_level: 結合附魔書
+    combine_weapon_per_level: 將武器和書結合
+    combine_armor_per_level: 將裝備和書結合
+    combine_tool_per_level: 將工具和書結合
+    grindstone_per_level: 以砂輪解除物品附魔
+  units:
+    damage: Damage
+    meter: Meter
+    100_jumps: 100 Jumps
+    mana: Mana Consumed
+    combine_level: Anvil Cost XP
+    grindstone_level: Level of Enchant on Item
+    enchant_level: Level of Enchant Received
 stats:
   strength:
     name: 強度
