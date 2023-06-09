@@ -1025,13 +1025,13 @@ sources:
     combine_tool_per_level: 將工具和書結合
     grindstone_per_level: 以砂輪解除物品附魔
   units:
-    damage: Damage
-    meter: Meter
-    100_jumps: 100 Jumps
-    mana: Mana Consumed
-    combine_level: Anvil Cost XP
-    grindstone_level: Level of Enchant on Item
-    enchant_level: Level of Enchant Received
+    damage: 傷害
+    meter: 公尺
+    100_jumps: 100次跳躍
+    mana: 法力消耗
+    combine_level: 鐵砧消耗經驗
+    grindstone_level: 物品的附魔等級
+    enchant_level: 獲得的附魔等級
 stats:
   strength:
     name: 強度
