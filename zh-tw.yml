@@ -576,8 +576,6 @@ menus:
     ability_levels: "\n&7能力等級:\n  {ability_1}\n  {ability_2}\n  {ability_3}\n  {ability_4}\n  {ability_5}\n "
     ability_level_entry: '&6{ability} {level} &8({info})'
     ability_level_entry_locked: '&8&m{ability}'
-    primary_stat: '&7主要: {color}{stat}'
-    secondary_stat: '&7次要: {color}{stat}'
     stats_leveled: "\n&7能力升了 {stats} 級"
     mana_ability: "\n&d&l法術能力 &9{mana_ability} {level}\n &7持續時間: &a{duration}秒 &7法力成本: &b{mana_cost} &7冷卻時間: &e{cooldown}秒\n "
   skills_menu:
