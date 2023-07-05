@@ -1,0 +1,18 @@
+thunderStrike: 
+ mythicmobs-skill-id: thunderStrike
+ cooldown: 10
+ Skills: 
+ - skill{s=lightHit} @pir{r=5}
+
+lightHit: 
+ Skills: 
+ - e:lightning{l=true} @targeted
+ - damage{a=20;i=true;ie=true} @targeted
+
+
+runItBack: 
+ mythicmobs-skill-id: runItBack
+ cooldown: 50
+ Skills: 
+ - heal{a=400} @self
+ - sendtitle{title="&9吾乃 天尊";subtitle="&c鳳凰似乎恢復了狀態";d=30} @pir{r=128}

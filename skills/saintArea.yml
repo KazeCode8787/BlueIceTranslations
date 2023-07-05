@@ -1,0 +1,62 @@
+saintArea: 
+ mythicmobs-skill-id: saintArea
+ cooldown: 30
+ Skills: 
+ - skill{s=visual} @self
+ - damage{amount=5} @eir{l=true;r=3;ignore=self}
+ - delay 20
+ - damage{amount=5} @eir{l=true;r=3;ignore=self}
+ - delay 20
+ - damage{amount=5} @eir{l=true;r=3;ignore=self}
+ - delay 20
+ - damage{amount=5} @eir{l=true;r=3;ignore=self}
+ - delay 20
+ - damage{amount=5} @eir{l=true;r=3;ignore=self}
+ 
+
+ #聖風領域
+visual: 
+ Skills:
+ - effect:particleorbital{p=flame;r=0.3;i=3} @self
+ - effect:particleorbital{p=flame;r=0.6;i=3;ry=0.2} @self
+ - effect:particleorbital{p=flame;r=0.9;i=3;ry=0.3} @self
+ - effect:particleorbital{p=flame;r=1.2;i=3;ry=0.5} @self
+ - effect:particleorbital{p=flame;r=1.5;i=3;ry=0.7} @self
+ - effect:particleorbital{p=flame;r=1.8;i=3;ry=0.9} @self
+ - effect:particleorbital{p=flame;r=2.1;i=3;ry=0.82} @self
+ - effect:particleorbital{p=flame;r=2.4;i=3;ry=0.75} @self
+ - effect:particleorbital{p=flame;r=2.7;i=3;ry=0.61} @self
+ - effect:particleorbital{p=flame;r=3.0;i=3;ry=0.43} @self
+
+ - effect:particleorbital{p=flame;r=0.3;i=3;ry=1.5} @self
+ - effect:particleorbital{p=flame;r=0.6;i=3;ry=1.7} @self
+ - effect:particleorbital{p=flame;r=0.9;i=3;ry=1.8} @self
+ - effect:particleorbital{p=flame;r=1.2;i=3;ry=2.0} @self
+ - effect:particleorbital{p=flame;r=1.5;i=3;ry=2.2} @self
+ - effect:particleorbital{p=flame;r=1.8;i=3;ry=2.4} @self
+ - effect:particleorbital{p=flame;r=2.1;i=3;ry=2.32} @self
+ - effect:particleorbital{p=flame;r=2.4;i=3;ry=2.25} @self
+ - effect:particleorbital{p=flame;r=2.7;i=3;ry=2.11} @self
+ - effect:particleorbital{p=flame;r=3.0;i=3;ry=1.93} @self
+
+ - effect:particleorbital{p=flame;r=0.3;i=3;ry=3} @self
+ - effect:particleorbital{p=flame;r=0.6;i=3;ry=3.2} @self
+ - effect:particleorbital{p=flame;r=0.9;i=3;ry=3.3} @self
+ - effect:particleorbital{p=flame;r=1.2;i=3;ry=3.5} @self
+ - effect:particleorbital{p=flame;r=1.5;i=3;ry=3.7} @self
+ - effect:particleorbital{p=flame;r=1.8;i=3;ry=3.9} @self
+ - effect:particleorbital{p=flame;r=2.1;i=3;ry=3.82} @self
+ - effect:particleorbital{p=flame;r=2.4;i=3;ry=3.75} @self
+ - effect:particleorbital{p=flame;r=2.7;i=3;ry=3.61} @self
+ - effect:particleorbital{p=flame;r=3.0;i=3;ry=3.43} @self
+
+ - effect:particleorbital{p=flame;r=0.3;i=3;ry=4.5} @self
+ - effect:particleorbital{p=flame;r=0.6;i=3;ry=4.7} @self
+ - effect:particleorbital{p=flame;r=0.9;i=3;ry=4.8} @self
+ - effect:particleorbital{p=flame;r=1.2;i=3;ry=5.0} @self
+ - effect:particleorbital{p=flame;r=1.5;i=3;ry=5.2} @self
+ - effect:particleorbital{p=flame;r=1.8;i=3;ry=5.4} @self
+ - effect:particleorbital{p=flame;r=2.1;i=3;ry=5.32} @self
+ - effect:particleorbital{p=flame;r=2.4;i=3;ry=5.25} @self
+ - effect:particleorbital{p=flame;r=2.7;i=3;ry=5.11} @self
+ - effect:particleorbital{p=flame;r=3.0;i=3;ry=4.93} @self

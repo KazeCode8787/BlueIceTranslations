@@ -1,0 +1,12 @@
+star-Tick:
+  Skills:
+  - e:particleorbital{p=flame;r=} @origin
+
+
+star:
+  Skills:
+  - projectile{repeat=19;repeatInterval=5;ot=star-Tick;i=1;hp=false;se=false;sb=false;v=4;mr=10;ho=18;sfo=-5;sso=-3.1;syo=0} @forward{f=10000;y=0}
+  - projectile{repeat=19;repeatInterval=5;ot=star-Tick;i=1;hp=false;se=false;sb=false;v=4;mr=10;ho=162;sfo=4.6;sso=0;syo=0} @forward{f=10000;y=0}
+  - projectile{repeat=19;repeatInterval=5;ot=star-Tick;i=1;hp=false;se=false;sb=false;v=4;mr=10;ho=-54;sfo=-5;sso=3.1;syo=0} @forward{f=10000;y=0}
+  - projectile{repeat=19;repeatInterval=5;ot=star-Tick;i=1;hp=false;se=false;sb=false;v=4;mr=10;ho=90;sfo=0.9;sso=-5;syo=0} @forward{f=10000;y=0}
+  - projectile{repeat=19;repeatInterval=5;ot=star-Tick;i=1;hp=false;se=false;sb=false;v=4;mr=10;ho=-126;sfo=0.9;sso=5;syo=0} @forward{f=10000;y=0}

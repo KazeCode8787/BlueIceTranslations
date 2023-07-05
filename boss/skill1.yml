@@ -1,0 +1,53 @@
+floatCloud: 
+ mythicmobs-skill-id: floatCloud
+ cooldown: 10
+ Skills: 
+ - potion{type=LEVITATION;duration=100;level=1} @PIR{r=10;ignore=self}
+ - potion{type=WITHER;duration=100;level=3} @PIR{r=10;ignore=self}
+ - effect:particletornado{cp=enchant;mr=1;h=3;i=4;d=100;rs=1;sh=1;cs=0;ca=0;chs=0.1;cvs=0.1;cps=1;cyo=2} @PIR{r=10;ignore=self}
+
+imagineCloud: 
+ mythicmobs-skill-id: imagineCloud
+ cooldown: 30
+ Skills: 
+ - potion{type=DAMAGE_RESISTANCE;duration=20;level=100} @self
+ - explosion{yield=3.26} @self
+
+cloudArrow:
+ mythicmobs-skill-id: cloudArrow
+ cooldown: 5
+ Skills:
+ - message{m="Fire in the HOLE"}
+ - missile{oT:arrowTick;oH=arrowHit;v=4;i=1;md=50;b=ARROW}
+ 
+
+force: 
+ mythicmobs-skill-id: force
+ cooldown: 10
+ Skills: 
+ - potion{type=DARKNESS;duration=300;l=100} @pir{r=100}
+ - potion{type=SLOW;duration=300;l=100} @pir{r=100}
+ - potion{type=WEAKNESS;duration=300;l=100} @pir{r=100}
+ - skill{s=star} @self
+ - message{m=愚蠢的勇者啊！給我跪下！} @pir{r=100}
+ 
+ 
+# For cloudArrow
+arrowHit: 
+ Skills: 
+ - damage{a=20,i=true,ie=true} @target
+
+arrowTick:
+ Skills: 
+ - e:particles{p=flame;a=1} @origin
+
+star-Tick:
+  Skills:
+  - e:particles{p=flame} @origin
+star:
+  Skills:
+  - projectile{repeat=19;repeatInterval=5;ot=star-Tick;i=1;hp=false;se=false;sb=false;v=4;mr=10;ho=18;sfo=-5;sso=-3.1;syo=0} @forward{f=10000;y=0}
+  - projectile{repeat=19;repeatInterval=5;ot=star-Tick;i=1;hp=false;se=false;sb=false;v=4;mr=10;ho=162;sfo=4.6;sso=0;syo=0} @forward{f=10000;y=0}
+  - projectile{repeat=19;repeatInterval=5;ot=star-Tick;i=1;hp=false;se=false;sb=false;v=4;mr=10;ho=-54;sfo=-5;sso=3.1;syo=0} @forward{f=10000;y=0}
+  - projectile{repeat=19;repeatInterval=5;ot=star-Tick;i=1;hp=false;se=false;sb=false;v=4;mr=10;ho=90;sfo=0.9;sso=-5;syo=0} @forward{f=10000;y=0}
+  - projectile{repeat=19;repeatInterval=5;ot=star-Tick;i=1;hp=false;se=false;sb=false;v=4;mr=10;ho=-126;sfo=0.9;sso=5;syo=0} @forward{f=10000;y=0}

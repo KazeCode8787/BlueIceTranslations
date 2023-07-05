@@ -1,0 +1,33 @@
+soulSword: 
+ mythicmobs-skill-id: soulSword
+ cooldown: 20
+ Skills: 
+ - sound{block.anvil.place} @eir{r=5}
+ - delay 5
+ - sound{s=entity.generic.explode} @self
+ - effect:particle{p=Sweep_Attack}
+ - delay 1
+ - skill{s=run} @eic{a=45;r=5;rot=0.0;ignore=self}
+ 
+ #殘魂劍氣
+
+run: 
+ Skills: 
+ - projectile{mr=5;ot=tickSkill;se=false} @targeted
+ - consume{h=5;d=20} @targeted
+
+
+tickSkill: 
+ Skills: 
+ - effect:blockwave{duration=30;material=stone;radius=1;radiusY=3;velocity=10;shape=cube} @SelfLocation{y=-1}
+
+soulSwordCrouch: 
+ mythicmobs-skill-id: soulSwordCrouch
+ Skills: 
+ - hide{d=1} @eiw
+ - potion{t=REGENERATION;d=1;l=1} @self
+ - potion{t=JUMP;d=1;l=2} @self
+ - potion{t=SPEED;d=1;l=1} @self
+ - potion{t=SLOW_FALLING;d=1;l=1} @self
+ - potion{t=NIGHT_VISION;d=1;l=1} @self
+ - potion{t=FIRE_RESISTANCE;d=1;l=1} @self

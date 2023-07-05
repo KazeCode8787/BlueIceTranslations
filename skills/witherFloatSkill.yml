@@ -1,0 +1,9 @@
+bloodcl: 
+ mythicmobs-skill-id: bloodcl
+ cooldown: 10
+ Skills: 
+ - potion{type=LEVITATION;duration=60;level=1} @target
+ - potion{type=WITHER;duration=60;level=3} @target
+ - effect:particletornado{cp=enchant;mr=1;h=3;i=4;d=60;rs=1;sh=1;cs=0;ca=0;chs=0.1;cvs=0.1;cps=1;cyo=2} @target
+ - sound{s=entity.wither.shoot} @target
+ #血祭浮雲
