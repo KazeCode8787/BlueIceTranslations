@@ -24,10 +24,10 @@ tickSkill:
 soulSwordCrouch: 
  mythicmobs-skill-id: soulSwordCrouch
  Skills: 
- - hide{d=1} @eiw
- - potion{t=REGENERATION;d=1;l=1} @self
- - potion{t=JUMP;d=1;l=2} @self
- - potion{t=SPEED;d=1;l=1} @self
- - potion{t=SLOW_FALLING;d=1;l=1} @self
- - potion{t=NIGHT_VISION;d=1;l=1} @self
- - potion{t=FIRE_RESISTANCE;d=1;l=1} @self
+ - hide{d=10} @eiw
+ - potion{t=REGENERATION;d=10;l=1} @self
+ - potion{t=JUMP;d=10;l=2} @self
+ - potion{t=SPEED;d=10;l=1} @self
+ - potion{t=SLOW_FALLING;d=10;l=1} @self
+ - potion{t=NIGHT_VISION;d=10;l=1} @self
+ - potion{t=FIRE_RESISTANCE;d=10;l=1} @self

@@ -1,6 +1,16 @@
+bloodcl: 
+ mythicmobs-skill-id: bloodcl
+ Cooldown: 10
+ Skills: 
+ - potion{type=LEVITATION;duration=60;level=1} @target
+ - potion{type=WITHER;duration=60;level=3} @target
+ - effect:particletornado{cp=enchant;mr=1;h=3;i=4;d=60;rs=1;sh=1;cs=0;ca=0;chs=0.1;cvs=0.1;cps=1;cyo=2} @target
+ - sound{s=entity.wither.shoot} @target
+ #血祭浮雲
+ 
 floatCloud: 
  mythicmobs-skill-id: floatCloud
- cooldown: 10
+ Cooldown: 10
  Skills: 
  - potion{type=LEVITATION;duration=100;level=1} @PIR{r=10;ignore=self}
  - potion{type=WITHER;duration=100;level=3} @PIR{r=10;ignore=self}
@@ -8,14 +18,14 @@ floatCloud:
 
 imagineCloud: 
  mythicmobs-skill-id: imagineCloud
- cooldown: 30
+ Cooldown: 30
  Skills: 
- - potion{type=DAMAGE_RESISTANCE;duration=20;level=100} @self
- - explosion{yield=3.26} @self
+ - effect:explosion @self
+ - damage{a=70;i=true;ie=true} @pir{r=5}
 
 cloudArrow:
  mythicmobs-skill-id: cloudArrow
- cooldown: 5
+ Cooldown: 5
  Skills:
  - message{m="Fire in the HOLE"}
  - missile{oT:arrowTick;oH=arrowHit;v=4;i=1;md=50;b=ARROW}
@@ -23,7 +33,7 @@ cloudArrow:
 
 force: 
  mythicmobs-skill-id: force
- cooldown: 10
+ Cooldown: 10
  Skills: 
  - potion{type=DARKNESS;duration=300;l=100} @pir{r=100}
  - potion{type=SLOW;duration=300;l=100} @pir{r=100}
