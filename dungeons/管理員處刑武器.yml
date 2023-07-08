@@ -1,0 +1,5 @@
+maple: 
+ mythicmobs-skill-id: maple
+ Skills: 
+ - message{m="技能製作中OUO"} @self
+
