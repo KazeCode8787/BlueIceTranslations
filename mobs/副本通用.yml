@@ -1,0 +1,20 @@
+副本通用:
+ Type: ZOMBIE
+ Faction: Monster
+ Options:
+  AlwaysShowName: true
+  KnockbackResistance: 0.25
+  FollowRange: 20
+  PreventOtherDrops: true
+  PreventSunburn: true
+ AIGoalSelectors:
+ - clear
+ - randomstroll
+ - meleeattack
+ AITargetSelectors: 
+ - clear
+ - attacker
+ - players
+ Skills: 
+ - skill{s=換目標} @target ~onDamaged >0 0.25
+

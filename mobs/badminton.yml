@@ -1,0 +1,20 @@
+羽毛球:
+  Mobtype: skeleton
+  Name: '羽毛球'
+  Display: '一顆羽毛球'
+  Health: 10
+  Damage: 0
+  Armor: 20
+  Options: 
+    PreventOtherDrops: true
+    MovementSpeed: 0
+    KnockbackResistance: 0
+    PreventRandomEquipment: true
+    PreventSunburn: true
+  AIGoalSelectors: 
+  - clear
+  Disguise: player 羽毛球 setSkin Blue_5125
+  Skills:
+  - skill{s=thunder} @origin ~onTimer:100
+  KillMessages:
+  - '<target.name> &4被 球 &4砸死了'

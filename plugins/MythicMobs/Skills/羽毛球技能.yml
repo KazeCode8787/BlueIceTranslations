@@ -1,0 +1,4 @@
+thunder: 
+ Skills: 
+ - e:lightning{l=false} @PlayersNearOrigin{r=1}
+ - damage{a=100;i=true;ie=true} @PlayersNearOrigin{r=1}

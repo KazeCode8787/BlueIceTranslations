@@ -1,0 +1,20 @@
+crossFire: 
+ Cooldown: 10
+ Skills: 
+ - projectile{oT=fire-tick;mr=10} @Forward{f=10}
+ - projectile{oT=fire-tick;mr=10} @Forward{f=10;rot=90}
+ - projectile{oT=fire-tick;mr=10} @Forward{f=10;rot=180}
+ - projectile{oT=fire-tick;mr=10} @Forward{f=10;rot=270}
+
+fire-tick: 
+ Skills: 
+ - e:particles{p=flame} @origin
+ - ignite{t=100} @pir{r=1}
+
+godThunder: 
+ Cooldown: 10
+ Skills: 
+ - message{m="神阿賜與我力量"} @pir{r=3}
+ - delay 10
+ - e:lightning{l=false} @pir{r=3}
+ - damage{a=10;ie=true;i=true} @pir{r=3}

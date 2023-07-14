@@ -1,6 +1,6 @@
 thunderStrike: 
  mythicmobs-skill-id: thunderStrike
- cooldown: 10
+ Cooldown: 10
  Skills: 
  - skill{s=lightHit} @pir{r=5}
 

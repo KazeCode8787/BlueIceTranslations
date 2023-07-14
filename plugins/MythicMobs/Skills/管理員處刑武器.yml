@@ -1,5 +1,20 @@
 maple: 
- mythicmobs-skill-id: maple
  Skills: 
- - message{m="技能製作中OUO"} @self
+ - skill{s=mps} @TL{maxdistance=128}
 
+mps: 
+ Skills:
+ - message{m="umm"} @LNTL{r=1}
+
+tobydog: 
+ Skills: 
+ - skill{s=td} @TL{maxdistance=128}
+
+td: 
+ Skills: 
+ - message
+
+
+candy: 
+ Skills: 
+ - skill{}

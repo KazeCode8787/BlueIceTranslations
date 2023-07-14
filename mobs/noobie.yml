@@ -1,0 +1,40 @@
+農夫:
+  Template: 副本通用
+  Exclude: 
+  - Skills
+  Name: '受到地主控制的農夫'
+  Display: '受到地主控制的農夫'
+  Health: 50
+  Damage: 3
+  Disguise: player 農夫 setSkin Blue_5125
+  KillMessages:
+  - '<target.name> &4被 <caster.name> &4種進了土裡'
+
+騎士:
+  Template: 副本通用
+  Exclude: 
+  - Skills
+  Name: '為地主而戰的騎士'
+  Display: '為地主而戰的騎士'
+  Health: 80
+  Damage: 5
+  Disguise: player 騎士 setSkin Blue_5125
+  KillMessages:
+  - '<target.name> &4被 <caster.name> &4殺死了'
+
+教士: 
+  Template: 副本通用
+  Exclude: 
+  - Skills
+  Name: '神聖的教士'
+  Display: '神聖的教士'
+  Health: 100
+  Damage: 1
+  Options: 
+    MovementSpeed: 0.3
+  Skills: 
+  - skill{s=crossFire} @self ~onTimer:200 >0 0.99
+  - skill{s=godThunder} @self ~onTimer:200 >0 0.8
+  Disguise: player 教士 setSkin Blue_5125
+  KillMessages:
+  - '<target.name> &4被 <caster.name> &4送去見上帝'
