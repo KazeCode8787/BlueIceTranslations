@@ -6,6 +6,8 @@
   Display: '受到地主控制的農夫'
   Health: 50
   Damage: 3
+  Options: 
+    MovementSpeed: 0.3
   Disguise: player 農夫 setSkin Blue_5125
   KillMessages:
   - '<target.name> &4被 <caster.name> &4種進了土裡'
@@ -18,6 +20,8 @@
   Display: '為地主而戰的騎士'
   Health: 80
   Damage: 5
+  Options: 
+    MovementSpeed: 0.35
   Disguise: player 騎士 setSkin Blue_5125
   KillMessages:
   - '<target.name> &4被 <caster.name> &4殺死了'
@@ -29,7 +33,7 @@
   Name: '神聖的教士'
   Display: '神聖的教士'
   Health: 100
-  Damage: 1
+  Damage: 2
   Options: 
     MovementSpeed: 0.3
   Skills: 
@@ -38,3 +42,28 @@
   Disguise: player 教士 setSkin Blue_5125
   KillMessages:
   - '<target.name> &4被 <caster.name> &4送去見上帝'
+
+騎士-召喚: 
+ Template: 騎士
+ Options:
+  PassthroughDamage: true
+
+教士-召喚: 
+ Template: 教士
+ Options:
+  PassthroughDamage: true
+
+
+大地主: 
+  Template: 副本通用
+  Name: '邪惡的大地主'
+  Display: '邪惡的大地主'
+  Health: 500
+  Damage: 7
+  Options: 
+    MovementSpeed: 0.37
+  Skills: 
+  - skill{s=contract-protect} @self ~onDamaged <70% 0.7
+  Disguise: player 大地主 setSkin Blue_5125
+  KillMessages:
+  - '<target.name> &4被 <caster.name> &4放逐了'

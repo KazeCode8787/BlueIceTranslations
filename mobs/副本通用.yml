@@ -4,8 +4,8 @@
  Options:
   AlwaysShowName: true
   KnockbackResistance: 0.25
-  FollowRange: 20
   PreventOtherDrops: true
+  PreventRandomEquipment: true
   PreventSunburn: true
  AIGoalSelectors:
  - clear

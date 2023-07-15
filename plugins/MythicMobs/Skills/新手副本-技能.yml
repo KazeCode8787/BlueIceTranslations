@@ -1,0 +1,32 @@
+crossFire: 
+ Cooldown: 10
+ Skills: 
+ - message{m="十字火焰"} @pir{r=3}
+ - delay 20
+ - projectile{oT=fire-tick;mr=10;hp=false;v=6} @Forward{f=100}
+ - projectile{oT=fire-tick;mr=10;hp=false;v=6} @Forward{f=100;rot=90}
+ - projectile{oT=fire-tick;mr=10;hp=false;v=6} @Forward{f=100;rot=180}
+ - projectile{oT=fire-tick;mr=10;hp=false;v=6} @Forward{f=100;rot=270}
+
+fire-tick: 
+ Skills: 
+ - e:particles{p=flame} @origin
+ - ignite{t=100} @pir{r=1}
+
+godThunder: 
+ Cooldown: 10
+ Skills: 
+ - message{m="神阿賜與我力量"} @pir{r=3}
+ - delay 20
+ - e:lightning{l=false} @pir{r=3}
+ - damage{a=10;ie=true;i=true} @pir{r=3}
+
+contract-protect: 
+ Cooldown: 30
+ Skills: 
+ - message{m="上呀！"} @PIR{r=20}
+ - sendtitle{title="注意";subtitle="大地主正在呼喚手下...";d=30} @pir{r=128}
+ - delay 30
+ - e:lightning{l=false} @origin
+ - summon{t=騎士-召喚;a=3} @origin
+ - summon{t=教士-召喚;a=2} @origin
