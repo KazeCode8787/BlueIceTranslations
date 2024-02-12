@@ -1,0 +1,31 @@
+夜鳴奏曲: 
+ Cooldown: 20
+ Skills: 
+ - message{m="聽聽安魂曲吧~"} @pir{r=7}
+ - delay 20
+ - e:particles{p=note;a=50;hs=3;spread=3;color=#484848} @Server
+ - damage{a=20} @pir{r=3}
+
+夜之歌: 
+ Cooldown: 20
+ Skills: 
+ - message{m="聽聽鎮魂曲吧!!"} @pir{r=7}
+ - delay 20
+ - e:particles{p=note;a=50;hs=5;spread=5;color=#000000;repeat=10;repeatI=20} @Server
+ - potion{type=WITHER;duration=20;level=2;repeat=10;repeatI=20} @PIR{r=5;ignore=self}
+
+
+nightSing: 
+ Cooldown: 20
+ Skills: 
+ - e:particles{p=note;a=50;hs=3;spread=3;color=#484848} @self
+ - e:particles{p=note;a=50;hs=3;spread=3;color=#484848} @Server
+ - damage{a=17} @eir{r=3}
+
+nightSong: 
+ Cooldown: 20
+ Skills: 
+ - e:particles{p=note;a=50;hs=5;spread=5;color=#000000;repeat=10;repeatI=20} @Self
+ - e:particles{p=note;a=50;hs=5;spread=5;color=#000000;repeat=10;repeatI=20} @Server
+ - potion{type=WITHER;duration=20;level=2;repeat=10;repeatI=20} @EIR{r=5;ignore=self}
+ - potion{type=SLOW;duration=20;level=2;repeat=10;repeatI=20} @EIR{r=5;ignore=self}

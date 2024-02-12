@@ -8,7 +8,9 @@
   Damage: 3
   Options: 
     MovementSpeed: 0.3
-  Disguise: player 農夫 setSkin Blue_5125
+  Drops: 
+  - money 3
+  Disguise: famer01
   KillMessages:
   - '<target.name> &4被 <caster.name> &4種進了土裡'
 
@@ -22,7 +24,10 @@
   Damage: 5
   Options: 
     MovementSpeed: 0.35
-  Disguise: player 騎士 setSkin Blue_5125
+  Drops: 
+  - money 5
+  - 騎士盔甲碎片 1 0.3
+  Disguise: knight01
   KillMessages:
   - '<target.name> &4被 <caster.name> &4殺死了'
 
@@ -36,10 +41,13 @@
   Damage: 2
   Options: 
     MovementSpeed: 0.3
+  Drops: 
+  - money 10
+  - 邪教殘卷 1 0.3
   Skills: 
   - skill{s=crossFire} @self ~onTimer:200 >0 0.99
   - skill{s=godThunder} @self ~onTimer:200 >0 0.8
-  Disguise: player 教士 setSkin Blue_5125
+  Disguise: priest01
   KillMessages:
   - '<target.name> &4被 <caster.name> &4送去見上帝'
 
@@ -62,8 +70,21 @@
   Damage: 7
   Options: 
     MovementSpeed: 0.37
+  BossBar:
+    Enabled: true
+    Title: '&d&l邪惡大地主'
+    Range: 100
+    Color: PINK
+    Style: SEGMENTED_12
+  Drops: 
+  - money 100
+  - 地契 1 1
   Skills: 
+  - e:lightning @origin ~onSpawn
+  - sendtitle{title="注意";subtitle="大地主已經重生";d=30} @PIR{r=100} ~onSpawn
   - skill{s=contract-protect} @self ~onDamaged <70% 0.7
-  Disguise: player 大地主 setSkin Blue_5125
+  - e:lightning @origin ~onDeath
+  - remove @children ~onDeath
+  Disguise: landowner01
   KillMessages:
   - '<target.name> &4被 <caster.name> &4放逐了'

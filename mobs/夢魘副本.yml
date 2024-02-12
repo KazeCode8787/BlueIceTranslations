@@ -1,0 +1,64 @@
+夢魘領主:
+  Template: 副本通用
+  Type: vindicator
+  Name: '&8&l夢魘領主'
+  Display: '&8&l夢魘領主'
+  Health: 1200
+  Damage: 35
+  Armor: 20
+  BossBar:
+    Enabled: true
+    Title: '&8&l夢魘領主'
+    Range: 100
+    Color: BLUE
+    Style: SEGMENTED_12
+  Options: 
+    MovementSpeed: 0.35
+    KnockbackResistance: 1
+  Disguise: player &8&l夢魘領主 setSkin WK135
+  Drops:
+  - 夢魘結晶 1 0.99
+  - 夢魘系列武器兌換卷 1 0.001
+  - money 1000
+  Skills:
+  - e:lightning @origin ~onSpawn
+  - sendtitle{title="注意";subtitle="夢魘領主已經重生";d=30} @PIR{r=100} ~onSpawn
+  - skill{s=夜鳴奏曲} @self ~onDamaged >0 0.3
+  - skill{s=夜之歌} @self ~onDamaged <40% 0.7
+  KillMessages:
+  - '<target.name> &9墜入夢魘'
+
+暗影刺客:
+  Template: 副本通用
+  Exclude: 
+  - Skills
+  Name: '暗影刺客'
+  Display: '暗影刺客'
+  Health: 100
+  Damage: 7
+  Options: 
+    MovementSpeed: 0.37
+  Disguise: player 暗影刺客 setSkin WK135
+  Skills: 
+  - hide{d=60} @Server ~onTimer:300 >0 0.7
+  Drops:
+  - 暗影結晶 1 0.03
+  - money 25
+  KillMessages:
+  - '<target.name> &9被 <mob.name> &9推入了無盡深淵'
+幻影:
+  Template: 副本通用
+  Exclude: 
+  - Skills
+  Name: '幻影'
+  Display: '幻影'
+  Health: 65
+  Damage: 5
+  Options: 
+    MovementSpeed: 0.35
+  Disguise: player 幻影 setSkin WK135
+  Drops:
+  - 幻影殘片 1 0.03
+  - money 30
+  KillMessages:
+  - '<target.name> 發覺&9 <mob.name> 啃食了自己的生命'

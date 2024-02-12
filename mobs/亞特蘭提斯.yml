@@ -1,0 +1,106 @@
+黑化鯊鯊:
+  Template: 副本通用
+  Type: drowned
+  Name: '黑化鯊鯊'
+  Display: '黑化鯊鯊'
+  Health: 3000
+  Damage: 11
+  Armor: 10
+  BossBar:
+    Enabled: true
+    Title: '&8&l黑化鯊鯊'
+    Range: 100
+    Color: BLUE
+    Style: SEGMENTED_12
+  Options: 
+    MovementSpeed: 0.35
+    KnockbackResistance: 1
+  Disguise: player 黑化鯊鯊 setSkin WK135
+  Equipment: 
+  - trident HAND
+  AIGoalSelectors:
+  - swim
+  Drops:
+  - 受汙染的海神核心 1 0.7
+  - money 1500
+  Skills:
+  - shoot{d=11;v=2;t=trident} @pir{r=20;limit=1;sort=NEAREST} ~onTimer:100
+  - summon{t=漩渦} @self ~onTimer:400 >0 0.7
+  - skill{s=五魂鯊-重影} @self ~onDamaged <40% 0.5
+  KillMessages:
+  - '<target.name> &9落入深海'
+
+黑化鯊鯊-分身:
+  Template: 黑化鯊鯊
+  Exclude: 
+  - Skills
+  Type: drowned
+  Name: '黑化鯊鯊-分身'
+  Display: '黑化鯊鯊-分身'
+  Health: 100
+  Damage: 6
+  Disguise: player 黑化鯊鯊-分身 setSkin WK135
+  Skills:
+  - shoot{d=7;v=2;t=trident} @pir{r=20;limit=1;sort=NEAREST} ~onTimer:100
+  Drops:
+  - 受汙染的海神核心 1 0.4
+  - 海神碎片 2 0.1
+  - money 200
+  KillMessages:
+  - '<target.name> &9落入深海'
+
+漩渦: 
+  Type: armor_stand
+  Health: 100000
+  Options: 
+    Invincible: true  
+    NoGravity: true
+    Invisible: true
+  Skills: 
+  - skill{s=束縛漩渦} @self ~onSpawn
+  KillMessages:
+  - '<target.name> &9遭到漩渦捲入'
+
+殘邪鯊魂:
+  Template: 副本通用
+  Type: drowned
+  Name: '殘邪鯊魂'
+  Display: '殘邪鯊魂'
+  Health: 200
+  Damage: 7
+  Options: 
+    MovementSpeed: 0.25
+  Disguise: player 殘邪鯊魂 setSkin WK135
+  Equipment: 
+  - trident HAND
+  AIGoalSelectors:
+  - swim
+  Drops:
+  - 海神碎片 1 0.3
+  - money 500
+  Skills:
+  - shoot{d=7;v=1;t=trident} @pir{r=10;limit=1;sort=NEAREST} ~onTimer:120
+  KillMessages:
+  - '<target.name> &9遭到鯊魂纏身'
+
+受汙染的舊日護衛:
+  Template: 副本通用
+  Type: drowned
+  Name: '受汙染的舊日護衛'
+  Display: '受汙染的舊日護衛'
+  Health: 130
+  Damage: 9
+  Options: 
+    MovementSpeed: 0.2
+  Disguise: player 受汙染的舊日護衛 setSkin WK135
+  Equipment: 
+  - trident HAND
+  AIGoalSelectors:
+  - swim
+  Drops:
+  - 受汙染的盔甲碎片 1 0.7
+  - money 500
+  Skills:
+  - shoot{d=9;v=1;t=trident} @pir{r=7;limit=1;sort=NEAREST} ~onTimer:140
+  KillMessages:
+  - '<caster.name>將入侵者<target.name>除掉了'

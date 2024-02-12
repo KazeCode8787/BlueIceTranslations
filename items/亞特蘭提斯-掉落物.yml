@@ -1,0 +1,53 @@
+海神碎片:
+  Id: prismarine_shard
+  Display: '&b海神碎片'
+  Data: 0
+  CustomModelData: 2
+  Lore:
+  - '|---------------------|'
+  - '好像能夠淨化某些東西...'
+  - '可至亞特蘭提斯副本兌換物品'
+
+受汙染的盔甲碎片:
+  Id: disc_fragment_5
+  Display: '&3受汙染的盔甲碎片'
+  Data: 0
+  CustomModelData: 3
+  Lore:
+  - '|---------------------|'
+  - '好像可以淨化...'
+  - '可至亞特蘭提斯副本兌換物品'
+
+海神盔甲碎片: 
+  Id: amethyst_shard
+  Display: '&6&l海神盔甲碎片'
+  Data: 0
+  CustomModelData: 3
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:10
+  Lore:
+  - '|---------------------|'
+  - '受到淨化的碎片，閃閃發光'
+  - '可至亞特蘭提斯副本兌換物品'
+
+受汙染的海神核心: 
+  Id: beacon
+  Display: '&3受汙染的海神核心'
+  Data: 0
+  CustomModelData: 2
+  Lore:
+  - '|---------------------|'
+  - '看起來可以淨化...'
+  - '可至亞特蘭提斯副本兌換物品'
+
+海神核心: 
+  Id: beacon
+  Display: '&b&l海神核心'
+  Data: 0
+  CustomModelData: 3
+  Enchantments:
+  - LUCK:10
+  Lore:
+  - '|---------------------|'
+  - '受到淨化的核心，蘊含著神祕的力量...'
+  - '可至亞特蘭提斯副本兌換物品'

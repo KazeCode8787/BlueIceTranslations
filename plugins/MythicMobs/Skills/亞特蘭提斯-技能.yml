@@ -1,0 +1,33 @@
+束縛漩渦: 
+ Cooldown: 20
+ Skills: 
+ - totem{ch=10;oS=visual;oT=漩渦tick;i=1;hp=true;oE=漩渦hit;md=100} @origin
+
+漩渦tick:
+ Skills: 
+ - pull @PIR{v=3;r=5}
+
+漩渦hit: 
+ Skills: 
+ - effect:explosion @self
+ - damage{a=17;i=true;ir=true} @PIR{r=5}
+ - throw{v=3;vy=3} @PIR{r=5}
+ - remove @self
+
+五魂鯊-重影: 
+ Cooldown: 5000
+ Skills: 
+ - summon{t=黑化鯊鯊-分身;a=5} @self
+
+
+sharkTriHit: 
+  Cooldown: 20
+  Skills:
+  - effect:explosion @origin
+  - throw{v=2;vy=2} @target
+
+
+sharkTriLand: 
+  Cooldown: 25
+  Skills:
+  - summon{t=漩渦} @origin

@@ -11,7 +11,7 @@ crossFire:
 fire-tick: 
  Skills: 
  - e:particles{p=flame} @origin
- - ignite{t=100} @pir{r=1}
+ - ignite{t=100} @pir{r=2}
 
 godThunder: 
  Cooldown: 10

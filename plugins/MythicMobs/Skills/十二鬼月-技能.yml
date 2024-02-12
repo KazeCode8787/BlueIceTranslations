@@ -1,0 +1,16 @@
+下弦之六-普通網: 
+ Cooldown: 10
+ Skills: 
+ - a
+
+下弦之六-血網:
+ Cooldown: 15
+ Skills: 
+ - a
+
+下弦之六-血網籠罩:
+ Cooldown: 25
+ Skills: 
+ - stun{d=600} @target
+
+下弦之一-血網籠罩:

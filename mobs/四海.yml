@@ -1,0 +1,100 @@
+東海:
+  Template: 副本通用
+  Name: '&b&l東海之神-狻獼'
+  Display: '&b&l東海之神-狻獼'
+  Health: 3000
+  Damage: 35
+  Armor: 20
+  BossBar:
+    Enabled: true
+    Title: '&b&l東海之神-狻獼'
+    Range: 100
+    Color: BLUE
+    Style: SEGMENTED_12
+  Options: 
+    MovementSpeed: 0.35
+    KnockbackResistance: 1
+  Disguise: player &b&l東海之神-狻獼 setSkin WK135
+  Drops:
+  - 鳳凰之羽 1 1
+  Skills:
+  - sendtitle{t="&4l警告!";st="四海眾神已重生";d=20} @pir{r=50} ~onSpawn
+  - effect:lightning @self ~onSpawn
+  - skill{s=waveStrike} @target ~OnCombat >0 0.35
+  KillMessages:
+  - '<target.name> &9被 <mob.name> &9拉入了深海'
+西海:
+  Template: 副本通用
+  Name: '&b&l西海之神-蜜妮'
+  Display: '&b&l西海之神-蜜妮'
+  Health: 4500
+  Damage: 20
+  Armor: 20
+  BossBar:
+    Enabled: true
+    Title: '&b&l西海之神-蜜妮'
+    Range: 100
+    Color: BLUE
+    Style: SEGMENTED_12
+  Options: 
+    MovementSpeed: 0.4
+    KnockbackResistance: 1
+  AIGoalSelectors: 
+  - clear
+  - fleeplayers
+  Disguise: player &b&l西海之神-蜜妮 setSkin Starmoon5610
+  Drops:
+  - 鳳凰之羽 1 1
+  Skills:
+  - effect:lightning @self ~onSpawn
+  - skill{s=eilSing} @self ~OnCombat >50% 0.35
+  KillMessages:
+  - '<target.name> &9被 <mob.name> &9拉入了深海'
+南海:
+  Template: 副本通用
+  Name: '&b&l南海之神-季羅'
+  Display: '&b&l南海之神-季羅'
+  Health: 2500
+  Damage: 40
+  Armor: 20
+  BossBar:
+    Enabled: true
+    Title: '&b&l南海之神-季羅'
+    Range: 100
+    Color: BLUE
+    Style: SEGMENTED_12
+  Options: 
+    MovementSpeed: 0.35
+    KnockbackResistance: 1
+  Disguise: player &b&l南海之神-季羅 setSkin Bineg46500
+  Drops:
+  - 鳳凰之羽 1 1
+  Skills:
+  - effect:lightning @self ~onSpawn
+  - skill{s=starBlast} @origin ~onCombat >20% 0.35
+  KillMessages:
+  - '<target.name> &9被 <mob.name> &9拉入了深海'
+北海:
+  Template: 副本通用
+  Name: '&b&l北海之神-蒂娜'
+  Display: '&b&l北海之神-蒂娜'
+  Health: 3500
+  Damage: 22
+  Armor: 20
+  BossBar:
+    Enabled: true
+    Title: '&b&l北海之神-蒂娜'
+    Range: 100
+    Color: BLUE
+    Style: SEGMENTED_12
+  Options: 
+    MovementSpeed: 0.30
+    KnockbackResistance: 1
+  Disguise: player &b&l北海之神-蒂娜 setSkin candycat0523
+  Drops:
+  - 鳳凰之羽 1 1
+  Skills:
+  - effect:lightning @self ~onSpawn
+  - skill{s=superBody} @target ~OnCombat >0 0.35
+  KillMessages:
+  - '<target.name> &9被 <mob.name> &9拉入了深海'

@@ -8,11 +8,7 @@ mps:
 
 tobydog: 
  Skills: 
- - skill{s=td} @TL{maxdistance=128}
-
-td: 
- Skills: 
- - message
+ - volley{type=ARROW;velocity=5;damage=100;amount=30;r=10;pickup=false}
 
 
 candy: 
